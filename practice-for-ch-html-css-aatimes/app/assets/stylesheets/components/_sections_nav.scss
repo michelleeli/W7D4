@@ -3,8 +3,13 @@
     justify-content: space-around;
     padding: 4px;
 
+    li:hover {
+        background-color: lightgrey;
+    }
+
     li:last-child:hover {
-        text-decoration: underline;
+        text-decoration: underline; 
+        background-color: transparent;
     }
 
 }

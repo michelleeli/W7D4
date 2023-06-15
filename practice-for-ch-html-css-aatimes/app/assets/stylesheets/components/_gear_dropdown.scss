@@ -1,3 +1,28 @@
 // Use the gear_dropdown.png screenshot as a style guide
 
-@use '../variables' as *;
+.gear-dropdown {
+    position: absolute;
+    display: none;
+    top: 70px;
+    right: 150px;
+}
+
+#gear:hover .gear-dropdown {
+    background-color: white;
+    display: block;
+    border: 1px solid grey;
+    box-shadow: 2px 2px grey;
+    width: 200px;
+    li {
+    position: relative;
+    padding: 5px;
+    box-sizing: content-box;
+    width: 95%;
+    }
+
+    li:hover {
+        display: block;
+        background-color: lightgrey;
+    }
+}
+
