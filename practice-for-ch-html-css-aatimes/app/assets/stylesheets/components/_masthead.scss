@@ -35,6 +35,9 @@ a:hover {
 		display: flex;
 	}
 
+	li:first-child {
+		font-weight: 700;
+	}
 
 
 }
@@ -82,5 +85,14 @@ a:hover {
 		color: green;
 	}
 
+	a {
+		position: relative;
+		top: 3px;
+	}
 
+	.date {
+		position: relative;
+		top: 4px;
+		padding-right: 5px;
+	}
 }
