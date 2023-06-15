@@ -6,11 +6,13 @@
 	align-items: center;
 	border-bottom: 2px solid black;
 	position: relative;
+
+	a:hover {
+		text-decoration: underline;
+	}
 }
 
-a:hover {
-	text-decoration: underline;
-}
+
 
 .language-nav {
 	display: flex;
@@ -66,7 +68,7 @@ a:hover {
 		font-weight: normal;
 		border: none;
 	}
-
+ 
 	button:hover {
 		background-color: $lightest-gray;
 	}

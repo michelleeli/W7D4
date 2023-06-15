@@ -1,0 +1,10 @@
+.section-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 4px;
+
+    li:last-child:hover {
+        text-decoration: underline;
+    }
+
+}
