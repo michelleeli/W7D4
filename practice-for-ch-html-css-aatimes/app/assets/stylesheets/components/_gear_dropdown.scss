@@ -3,26 +3,61 @@
 .gear-dropdown {
     position: absolute;
     display: none;
-    top: 70px;
+    top: 65px;
     right: 150px;
 }
 
 #gear:hover .gear-dropdown {
     background-color: white;
     display: block;
-    border: 1px solid grey;
-    box-shadow: 2px 2px grey;
+    border: 1px solid lightgray;
+    box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
+    z-index: 1;
     width: 200px;
-    li {
-    position: relative;
-    padding: 5px;
-    box-sizing: content-box;
-    width: 95%;
+
+    ul li {
+        position: relative;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+        font-size: 15px;
     }
 
-    li:hover {
+    .dropdown-subtitle {
+        font-weight: 700;
+        color: grey;
+        padding-top: 10px;
+        padding: 5px;
+    }
+
+    .editions {
+        padding-top: 10px;
+    }
+
+    span {
+        padding-bottom: 10px;
+    }
+
+    .help {
+        padding-top: 10px;
+        border-top: 1px solid lightgrey;
+    }
+
+    .help li {
+        color: #326891
+    }
+
+    ul li:hover {
         display: block;
+    }
+
+    .editions li:hover {
         background-color: lightgrey;
     }
-}
 
+    .help li:hover {
+        color: #326891;
+        text-decoration: underline;
+    }
+
+}
